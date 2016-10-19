@@ -1,10 +1,10 @@
 # template-repo
 Prototype content repo for new Template Repository service.
 
-Hierarchical collection of email templates used with the FamilySearch ecosystem.
+Hierarchical collection of email templates used within the FamilySearch ecosystem.
 
-__Directory structure__:  
-    /templates/{template-title}/{language}/{version}/
+__Directory structure__:
+	/templates/{template-title}/{language}/{version}/
   
 A template directory (folder) will typically hold:
 * Primary Velocity template.
