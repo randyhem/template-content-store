@@ -3,7 +3,7 @@ Prototype content repo for new Template Repository service.
 
 Hierarchical collection of email templates used with the FamilySearch ecosystem.
 
-Directory structure:
+__Directory structure__:  
   /templates/{email-template-title}/{language}/{version}/
   
 A template directory (folder) will typically hold:
