@@ -1,6 +1,6 @@
 # template-repo
 Prototype content repo for new Template Repository service.
-
+___
 Hierarchical collection of email templates used within the FamilySearch ecosystem.
 
 __Directory structure__:
