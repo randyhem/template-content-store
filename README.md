@@ -1,4 +1,4 @@
-# template-repo
+# template-content-store
 Prototype content repo for new Template Repository service.
 ___
 Hierarchical collection of email templates used within the FamilySearch ecosystem.
