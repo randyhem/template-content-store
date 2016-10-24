@@ -8,6 +8,6 @@ __Directory structure__:
   
 A template directory (folder) will typically hold:
 * Primary Velocity template.
-* Optional Velocity templates (included from primary template).
+* Secondary Velocity templates (common content included from a primary template).
 * Language specific resource bundles.
   
