@@ -1,4 +1,7 @@
-# This is the FamilySearch Welcome message that is sent to a new user that recently created a FamilySearch account.
+# This is the FamilySearch Welcome message that is sent to
+#  a new user that recently created a FamilySearch account.
+#  Version 0
+
 Welcome $user.name
 Hope you enjoy your FamilySearch experience
 
