@@ -1,0 +1,6 @@
+
+# This is a French resource bundle for the FamilySearch Welcome email template
+# Key / value pairs
+
+header_text = "Salut Oncle Sam"
+footer_text = "Bye Oncle Sam"
