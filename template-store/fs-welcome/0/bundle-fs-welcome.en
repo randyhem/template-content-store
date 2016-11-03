@@ -1,5 +1,0 @@
-# This is an English resource bundle for the FamilySearch Welcome email template
-# Key / value pairs
-
-header_text = "Hi Uncle Sam"
-footer_text = "Bye Uncle Sam"
