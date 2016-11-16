@@ -1,1 +1,30 @@
-{"applicationName":"fs-welcome","primaryTemplateName":"fs-welcome.vm","preferredVersion":"v1.0","commonResources":["welcome-hdr.vm"],"availableVersions":[{"versionNumber":"v1.0","availableLocales":["EN","ES","FR"],"released":true},{"versionNumber":"v2.0","availableLocales":["EN"],"released":false}]}
+{
+  "applicationName":"fs-welcome",
+  "primaryTemplateName":"fs-welcome.vm",
+  "preferredVersion":"v1.0",
+  "commonResources":
+    [
+      "welcome-hdr.vm"
+    ],
+  "availableVersions":
+    [
+      {
+        "versionNumber":"v1.0",
+        "availableLocales":
+          [
+            "EN",
+            "ES",
+            "FR"
+          ],
+        "released":true
+      },
+      {
+        "versionNumber":"v2.0",
+        "availableLocales":
+          [
+            "EN"
+          ],
+        "released":false
+      }
+    ]
+}
