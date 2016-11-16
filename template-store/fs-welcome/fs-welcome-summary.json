@@ -9,8 +9,8 @@
   "availableVersions":
     [
       {
-        "versionNumber":"v1.0",
-        "availableLocales":
+        "version":"v1.0",
+        "locales":
           [
             "EN",
             "ES",
@@ -19,8 +19,8 @@
         "released":true
       },
       {
-        "versionNumber":"v2.0",
-        "availableLocales":
+        "version":"v2.0",
+        "locales":
           [
             "EN"
           ],
