@@ -1,6 +1,6 @@
 {
   "applicationName":"ums_common_email-header",
-  "primaryTemplateName":"ums_common_email-header.mustache",
+  "primaryTemplateName":"ums_common_email-header.vm",
   "preferredVersion":"1",
   "commonResources":[],
   "availableVersions":
