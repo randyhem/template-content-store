@@ -1,0 +1,241 @@
+{{<ums_common_email-base}}
+{{$content}}
+<table align="center" bgcolor="#FFFFFF" class="devicewidth"
+       style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18;" width="600" yahoo="fix">
+    <tbody align="left">
+    <!-- Header -->
+    <tr>
+        <td>
+            <table width="100%">
+                <tbody>
+                <tr>
+                    <td width="100%">
+                        <table align="right">
+                            <tbody style="font-size: 14px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color: #8b847c;">
+                            <tr>
+                                <td style="text-align: right;">{{lang.youhave}}</td>
+                                <td style="color: #FF2D17;">{{data.totalUnreadMsgs}}</td>
+                                <td>{{lang.unreadMessages}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table style="box-shadow: #e6e6e6 0px 4px 0px, rgba(0, 0, 0, 0.0980392) 0px -30px 50px inset; height: 76px; vertical-align: inherit; border-radius: 3px; background-color: #88c548;"
+                               width="100%">
+                            <tbody align="left"
+                                   style="font-size: 32px; color: #FFFFFF; text-shadow: rgba(0, 0, 0, 0) 0px 0px 0px; font-weight: 400; text-align: center;">
+                            <tr>
+                                <td colspan="3" height="10" width="100%">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td width="20">&nbsp;</td>
+                                <td style="font-size: 32px; color: #FFFFFF; font-weight: 400; text-align: left;">{{lang.youHaveANewMessage}}
+                                </td>
+                                <td width="10">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" height="10">&nbsp;</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <!-- Body -->
+    <tr>
+        <td>
+            <table>
+                <tbody>
+                <tr>
+                    <td width="15">&nbsp;</td>
+                    <td>
+                        <table style="font-size: 18px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #8b847c;">
+                            <tbody>
+                            <tr>
+                                <td height="10">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="bodyText"
+                                    style="font-size: 18px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #8b847c;">
+                                    {{lang.dear}} {{data.ums_recipient_name}}
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td height="10">&nbsp;</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    {{lang.youHaveReceived}}, {{data.senderName}}, {{lang.whoHasShared}}
+
+                                    <table style="font-size: 18px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #8b847c;"
+                                           width="100%">
+                                        <tbody>
+                                        <tr>
+                                            <td height="10">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center"
+                                                style="font-size: 22px; text-align: center; color: #4688c7;"><a
+                                                    alias="fsMailboxUrl" href="{{data.fsMailboxUrl}}"
+                                                    style="text-decoration: none; font-size: 22px; text-align: center; color: #4688c7;">{{data.about}}</a>
+                                            </td>
+                                            <td height="10">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="10">&nbsp;</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    {{lang.toView}}
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td width="10">&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <!-- CTA -->
+    <tr>
+        <td>
+            <table>
+                <tbody>
+                <tr>
+                    <td height="15">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;" width="100%">
+                            <tbody>
+                            <tr>
+                                <td align="center"><!-- Old Color: #174896 % #4688c7 -->
+                                    <table align="center"
+                                           style="box-shadow: #e6e6e6 0px 0px 0px, #4688c7 0px -30px 50px inset; display: inline-block; border-radius: 5px; background-color: #4688c7;">
+                                        <tbody align="center" style="text-align: center;">
+                                        <tr>
+                                            <td colspan="3" height="10">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="15">&nbsp;</td>
+                                            <td><a alias="fsMailboxUrl" alt="CTA" class="buttonText"
+                                                   href="{{data.fsMailboxUrl}}"
+                                                   style="text-decoration: none; color: #FFFFFF; font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; font-weight: 800; font-size: 24px; line-height: 1.5em;">{{lang.viewTheMessage}}</a>
+                                            </td>
+                                            <td width="15">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3" height="10">&nbsp;</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20">&nbsp;</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <!-- Footer -->
+    <tr>
+        <td>
+            <table align="center" bgcolor="#FFFFFF"
+                   style="text-align: center; font-family: Helvetica, Arial, sans-serif; font-size: 18;" width="100%"
+                   yahoo="fix">
+                <tbody align="left">
+                <tr>
+                    <td>
+                        <hr style="border: 1px solid #dddddd;"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td width="20">&nbsp;</td>
+                                <td>
+                                    <table class="bodyText"
+                                           style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 26px; color: #797979; border-spacing: 0px !important;">
+                                        <tbody>
+                                        <tr style="border-spacing: 0px;">
+                                            <td align="left"
+                                                style="padding: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 26px; color: #797979;">
+                                                <strong>{{lang.forgotYourAccount}}</strong>
+                                                <table>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td height="">&nbsp;</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                                {{lang.goHereTo}}
+                                                <a data-click-track-id="8701"
+                                                   href="https://familysearch.org/recover/password?state=https:%2F%2Ffamilysearch.org%2F"
+                                                   style="text-decoration: none;"><font
+                                                        color="0033ff"> {{lang.resetYourPassword}}</font></a> {{lang.or}}
+                                                <a
+                                                        data-click-track-id="4087"
+                                                        href="https://familysearch.org/recover/username?state=https:%2F%2Ffamilysearch.org%2F"
+                                                        style="text-decoration: none;"><font
+                                                        color="0033ff">{{lang.recoverYourUserName}}</font></a>.
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <hr style="border: 1px solid #dddddd;"/>
+                        <table>
+                            <tbody>
+                            <tr>
+                                <td width="20">&nbsp;</td>
+                                <td>
+                                    <table class="bodyText"
+                                           style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 26px; color: #797979; border-spacing: 0px !important;">
+                                        <tbody>
+                                        <tr>
+                                            <td>{{lang.messagingIsAService}} <a
+                                                    data-click-track-id="7810"
+                                                    href="mailto:support@familysearch.org"
+                                                    style="text-decoration: none;">{{lang.contactSupport}}</a>.
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr style="border: 1px solid #dddddd;"/>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+{{/content}}
+{{/ums_common_email-base}}

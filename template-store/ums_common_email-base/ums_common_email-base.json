@@ -1,0 +1,14 @@
+{
+  "applicationName":"ums_common_email-base",
+  "primaryTemplateName":"ums_common_email-base.mustache",
+  "preferredVersion":"1",
+  "commonResources":[],
+  "availableVersions":
+  [
+    {
+      "version":"1",
+      "locales": [],
+      "released":true
+    }
+  ]
+}
