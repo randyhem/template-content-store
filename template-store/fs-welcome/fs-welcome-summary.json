@@ -1,10 +1,10 @@
 {
   "applicationName":"fs-welcome",
-  "primaryTemplateName":"fs-welcome.vm",
+  "primaryTemplateName":"fs-welcome.mustache",
   "preferredVersion":"v1.0",
   "commonResources":
     [
-      "welcome-hdr.vm"
+      "welcome-hdr.mustache"
     ],
   "availableVersions":
     [
