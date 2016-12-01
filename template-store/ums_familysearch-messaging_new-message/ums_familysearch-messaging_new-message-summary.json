@@ -13,6 +13,15 @@
         "es"
       ],
       "released":true
-    }
+    },
+    {
+    "version":"2",
+    "locales":
+    [
+      "en",
+      "es"
+    ],
+    "released":true
+  }
   ]
 }
