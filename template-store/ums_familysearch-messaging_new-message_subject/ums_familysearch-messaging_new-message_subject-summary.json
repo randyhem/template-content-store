@@ -1,7 +1,7 @@
 {
   "applicationName":"ums_familysearch-messaging_new-message_subject",
   "primaryTemplateName":"ums_familysearch-messaging_new-message_subject.mustache",
-  "preferredVersion":"1",
+  "preferredVersion":"2",
   "commonResources":[],
   "availableVersions":
   [
