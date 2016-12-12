@@ -7,7 +7,7 @@
   [
     {
       "version":"1",
-      "locales":
+      "releasedLocales":
       [
         "en",
         "es"
@@ -16,7 +16,7 @@
     },
     {
     "version":"2",
-    "locales":
+    "releasedLocales":
     [
       "en",
       "es"
