@@ -16,11 +16,11 @@
             "ES",
             "FR"
           ],
-        "isReleased":true
+        "released":true
       },
       {
         "version":"v2.0",
-        "locales":
+        "releasedLocales":
           [
             "EN"
           ],
