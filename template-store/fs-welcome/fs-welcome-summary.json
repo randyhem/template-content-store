@@ -10,13 +10,13 @@
     [
       {
         "version":"v1.0",
-        "locales":
+        "releasedLocales":
           [
             "EN",
             "ES",
             "FR"
           ],
-        "releasedLocales":true
+        "released":true
       },
       {
         "version":"v2.0",
