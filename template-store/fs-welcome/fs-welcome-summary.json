@@ -16,7 +16,7 @@
             "ES",
             "FR"
           ],
-        "released":true
+        "isReleased":true
       },
       {
         "version":"v2.0",
