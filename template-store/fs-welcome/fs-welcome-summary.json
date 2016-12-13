@@ -12,9 +12,9 @@
         "version":"v1.0",
         "releasedLocales":
           [
-            "EN",
-            "ES",
-            "FR"
+            "en",
+            "es",
+            "fr"
           ],
         "released":true
       },
@@ -22,7 +22,7 @@
         "version":"v2.0",
         "releasedLocales":
           [
-            "EN"
+            "en"
           ],
         "released":false
       }
