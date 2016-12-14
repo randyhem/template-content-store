@@ -2,6 +2,7 @@
   "applicationName":"fs-welcome",
   "primaryTemplateName":"fs-welcome.mustache",
   "preferredVersion":"v1.0",
+  "preferredTestVersion":"v2.0",
   "commonResources":
     [
       "welcome-hdr.mustache"
