@@ -1,5 +1,6 @@
 {
   "applicationName":"fs-welcome",
+  "description":"Test template repository used only for development and testing activities",
   "primaryTemplateName":"fs-welcome.mustache",
   "preferredVersion":"v1.0",
   "preferredTestVersion":"v2.0",
