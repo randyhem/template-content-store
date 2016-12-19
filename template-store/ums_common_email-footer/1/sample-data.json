@@ -1,0 +1,16 @@
+{
+  "optoutUrl": "https://beta.familysearch.org/messaging/unsubscribe?id=HTeOnIZQXF4BX5lS8y4t372C2kEija_p40zghBr-Ljs",
+  "ums": {
+    "recipient": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "locale": "en"
+    },
+    "snippet": {
+      "id": "d51ebd1f-c19b-4c49-8fc4-6b830742d501",
+      "type": "familysearch-messaging_new-message",
+      "version": "1",
+      "time_created": "2016-12-07T11:32:01.371-0700"
+    }
+  }
+}
